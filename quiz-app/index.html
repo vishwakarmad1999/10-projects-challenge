@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="quiz-container">
+            <div class="d-flex justify-content-between">
+                <h3 id="question">Question</h3>
+                <small id="time-container"><strong>Time Remaining: </strong><span id="time">5</span></small>
+            </div>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="a">
+                    <label id="text-a" for="a">Option 1</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="b">
+                    <label id="text-b" for="b">Option 2</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="c">
+                    <label id="text-c" for="c">Option 3</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="d">
+                    <label id="text-d" for="d">Option 4</label>
+                </li>
+            </ul>
+            <button id="next">Next</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

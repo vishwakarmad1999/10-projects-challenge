@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+
+#time-container {
+    padding: 10px;
+}
+
+#question {
+    padding-top: 10px;
+    padding-left: 10px;;
+}
+
+.quiz-container {
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    border: none;
+    background-color: #273c75;
+    color: white;
+    height: 50px;
+    font-family: inherit;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #192a56;
+}

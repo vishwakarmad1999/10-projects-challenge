@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+.body {
+    background-image: url("./bday.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.bday-text {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days, .hours, .min, .sec {
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+}
